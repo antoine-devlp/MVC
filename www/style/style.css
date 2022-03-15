@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 20px;
+  background-color: rgb(122, 194, 236);
+}
+header a {
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  background: rgb(182, 182, 182);
+  padding: 5px 10px;
+  color: white;
+}
+main {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home{
+    flex-direction: row;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+table,
+thead {
+  border: 1px solid #333;
+  border-collapse: separate;
+  margin: 25px;
+}
+thead {
+  background-color: #333;
+  color: #fff;
+}
+td,
+th {
+  border: 1px solid #333;
+  padding: 12px 20px;
+}
+button {
+  padding: 5px 10px;
+}
